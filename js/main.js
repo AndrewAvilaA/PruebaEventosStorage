@@ -40,7 +40,8 @@ function removerDelCarrito(prod) {
 }
 
 function guardoCarrito() {
-    if (carrito.lenght > 0) {
+    //if (carrito.lenght > 0) {
+    if (carrito.length > 0) {
         localStorage.setItem("carrito", JSON.stringify(carrito))
     }
 }
